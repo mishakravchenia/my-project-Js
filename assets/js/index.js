@@ -16,22 +16,32 @@
 // let string = "java script";
 // let stringNumber = "100";
 // console.log(number, boolean, string, stringNumber);
+
+let num = 5;
+num += 11;
+num -= 11;
+num /= 11;
+num *= 11;
+num++;
+num--;
+alert(num);
+
 ////////////////////////////////////////////////////////////////////////////////
 
-const number2 = +prompt("Input numer ", "0");
-const numerSquare = number2 ** 2;
-console.log("Total number:", numerSquare);
+// const number2 = +prompt("Input numer ", "0");
+// const numerSquare = number2 ** 2;
+// console.log("Total number:", numerSquare);
 
-const housePrice1 = +prompt("Price1", "0");
-const housePrice2 = +prompt("Price2", "0");
-const sum = (housePrice1 + housePrice2) / 2;
-console.log("Total sum:", sum);
+// const housePrice1 = +prompt("Price1", "0");
+// const housePrice2 = +prompt("Price2", "0");
+// const sum = (housePrice1 + housePrice2) / 2;
+// console.log("Total sum:", sum);
 
-const minute = +prompt("Input minute", "0");
-const second = minute * 60;
-console.log("total second:", second);
+// const minute = +prompt("Input minute", "0");
+// const second = minute * 60;
+// console.log("total second:", second);
 
-const greeting = "Hello,";
-const userName = prompt("Input name");
-const massage = greeting + " " + userName;
-document.write("<p>" + "'" + greeting + " " + userName + "! " + "'" + "</p>");
+// const greeting = "Hello,";
+// const userName = prompt("Input name");
+// const massage = greeting + " " + userName;
+// document.write("<p>" + "'" + greeting + " " + userName + "! " + "'" + "</p>");
